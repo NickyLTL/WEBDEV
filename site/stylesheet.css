@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	color: black;
+	font-family: arial, sans-serif;
+}
+
+#header
+{
+	text-align: center;
+	font-size: 1.75em;
+}
+
+@media (min-width: 992px)
+{
+	#header{
+		margin-top: 5%;
+	}
+
+	.col-lg-4
+	{
+		width: 33.33%;
+		float:left;
+
+	}
+
+	.type{
+		background-color: #99b898;
+		border: 1px solid black;
+		width: 90%;
+		margin: 10% 5%;
+	
+	}
+
+	.type p{
+		width: 95%;
+		text-align: left;
+		padding: 2%;
+	}
+
+	.title{
+		background-color: #FF847C;
+		font-size: 1.25em;
+		width: 40%;
+		text-align: center;
+		position:relative;
+		left: 60%;
+		border: 1px solid black;
+	}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+	#header{
+		margin-top: 5%;
+	}
+	.col-md-6
+	{
+		width: 50%;
+		float: left;
+	}
+
+	.col-md-6 .type
+	{
+		background-color:#99b898;
+		border: 1px solid black;
+		width: 90%;
+		margin: 5% 5%;
+	}
+
+	.col-md-6 .title{
+		background-color: #FF847C;
+		font-size: 1.25em;
+		width: 40%;
+		position: relative;
+		left: 60%;
+		text-align: center;
+		border: 1px solid black;
+		padding: 1%;
+	}
+
+	.col-md-6 p{
+		width: 95%;
+		padding: 2%;
+	}
+
+	.col-md-12
+	{
+		width: 100%;
+		float: left;
+	}
+
+	.col-md-12 .type{
+		background-color:#99b898;
+		border: 1px solid black;
+		width: 95%;
+		margin-left: 2.5%;
+	}
+
+	.col-md-12 .title{
+		background-color: #FF847C;
+		font-size: 1.25em;
+		border: 1px solid black;
+		width: 18.95%;
+		position: relative;
+		left: 81.05%;
+		text-align: center;
+		padding: 0.5%;
+	}
+
+	.col-md-12 p{
+		padding: 2%;
+		width: 95%;
+	}
+}
+
+@media (max-width: 767px)
+{
+	#header{
+		margin-top: 5%;
+	}
+
+	.col-sm-12{
+		width: 100%;
+	}
+
+	.type{
+		width: 90%;
+		background-color: #99b898;
+		border: 1px solid black;
+		margin: 5%;
+	}
+
+	.title{
+		font-size: 1.25em;
+		width: 40%;
+		background-color: #FF847C;
+		text-align: center;
+		position: relative;
+		left: 60%;
+		border: 1px solid black;
+	}
+
+	.col-sm-12 p {
+		width: 95%;
+		padding: 2%;
+	}
+}
